@@ -43,9 +43,9 @@ button :hover {
                 text-align: center;
                 border: 1px solid black;
                 overflow-y: scroll;
-                height: 100%;
+                height: 100px ;
 }
 
-.cartImg {
+.cartImg  > img  {
                 width: 200px;
 }
