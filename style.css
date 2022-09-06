@@ -36,3 +36,12 @@ button {
 button :hover {
                 box-sizing: 0 0 5px #e1701a inset;
 } 
+
+.cart {
+                width: 250px;
+                float: right;
+                text-align: center;
+                border: 1px solid black;
+                overflow-y: scroll;
+                height: 100%;
+}
