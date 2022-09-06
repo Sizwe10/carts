@@ -45,3 +45,7 @@ button :hover {
                 overflow-y: scroll;
                 height: 100%;
 }
+
+.cartImg {
+                width: 200px;
+}
