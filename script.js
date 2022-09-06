@@ -1,5 +1,6 @@
 
 var addItemId = 0;
+ 
 function addToCart(item) {
      addItemId += 1;
      var selectedItem = document.createElement('div');
@@ -14,8 +15,12 @@ function addToCart(item) {
      var select = document.createElement('span');
      select.innerText = item.children[2].children[0].value; 
      label.append(select);
+     var delBtn = document.createElement('button');
+     delBtn.innerText = 'Delete';
+      delBtn.setAttribute('onclick', 'del('++')');
      var cartItems = document.getElementById('title');
      selectedItem.append(img);
      selectedItem.append(title);
+     selectedItem.append(label);
      cartItems.append(selectedItem);
 }
